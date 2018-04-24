@@ -1,0 +1,11 @@
+Kevin Monreal 3/2/17
+wmic <command> get <secondary command>
+wmic /node:"computerName" <command> get <secondaryCommand>
+
+These are the commands and secondary commands to get the IP and MACAddress
+
+Command: nicconfig
+
+Secondary command: get MACAddress, DefaultIPGateway, IPAddress, IPSubnet, DNSHostName, DNSDomain
+
+URL: https://blogs.technet.microsoft.com/askperf/2012/02/17/useful-wmic-queries/
